@@ -1,0 +1,148 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+*,
+*::before,
+*:after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(224,232,255,255);
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Wave */
+
+.custom-shape-divider-top-1632286636 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1632286636 svg {
+    position: relative;
+    display: block;
+    width: calc(152% + 1.3px);
+    height: 500px;
+}
+
+.custom-shape-divider-top-1632286636 .shape-fill {
+    fill: #D6E1FF;
+}
+
+.main{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,17%);
+    width: 46.5vh;
+    height: 75vh;
+    background-color: #fff;
+    border: 0px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.img-card{
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    border-radius: 20px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.content-card{
+    position: absolute;
+    text-align: center;
+    padding: 0 35px;
+    width: 100%;
+    height: 70%;
+    bottom: 0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.content-card #title{
+    margin: 45px 0;
+}
+
+.content-card #para{
+    font-size: 18px;
+    opacity: 0.6;
+}
+
+.content-card .box{
+    margin: 13px 0;
+    width: 100%;
+    height: 20%;
+    background-color: #f8f9fe;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.box .left-content{
+    position: relative;
+    width: 60%;
+    text-align: center;
+}
+
+.box .left-content img{
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.box .left-content #text{
+    position: absolute;
+    margin: 20px;
+    left: 60px
+}
+
+.box .left-content #text span{
+    opacity: 0.6;
+    font-weight: 400;
+}
+
+.box .right-content{
+    width: 40%;
+    position: relative;
+}
+
+.box .right-content button{
+    color: #796ee7;
+    border: none;
+    background: transparent;
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-80%);
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+#proceed{
+    border: none;
+    background-color: #382ae1;
+    color: #fff;
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 19px;
+    box-shadow: 0 5px 5px rgb(134, 131, 131);
+    cursor: pointer; 
+}
+
+#cancel{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 25px;
+    cursor: pointer; 
+}
